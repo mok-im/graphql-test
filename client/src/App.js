@@ -68,11 +68,6 @@ function App() {
           <div>{user.id}. {user.username} {user.age} </div>
         )}
       </div>
-      <div>
-        {users.map(user =>
-          <div>{user.id}. {user.username} {user.age} </div>
-        )}
-      </div>
     </div>
   );
 }
