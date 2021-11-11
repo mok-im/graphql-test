@@ -56,8 +56,6 @@ function App() {
         <Input value={age} onChange={e => setAge(Number(e.target.value))} type="number" placeholder="Age" />
         <div style={{ marginTop: "10px" }}>
           <Button onClick={(e) => addUser(e)}>Create</Button>
-          <Button onClick={(e) => getAll(e)}>Load</Button>
-          <Button onClick={(e) => getAll(e)}>Load 2</Button>
         </div>
       </form>
       <div>
