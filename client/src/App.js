@@ -54,15 +54,15 @@ function App() {
       <form >
         <Input value={username} onChange={e => setName(e.target.value)} type="text" style={{ marginRight: '10px' }} placeholder="Name" />
 
-        <h1>htllo</h1>
+        <h1>htll</h1>
         <Input value={age} onChange={e => setAge(Number(e.target.value))} type="number" placeholder="Age" />
         <div style={{ marginTop: "10px" }}>
           <Button onClick={(e) => addUser(e)}>Create</Button>
         </div>
       </form>
+      <h2>sf</h2>
       <h2>ssf</h2>
-      <h2>ssf</h2>
-      <h2>ssf</h2>
+      <h2>sf</h2>
       <div>
         {users.map(user =>
           <div>{user.id}. {user.username} {user.age} </div>
