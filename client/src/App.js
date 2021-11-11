@@ -53,6 +53,8 @@ function App() {
     <div className="App" style={{ marginTop: "150px" }}>
       <form >
         <Input value={username} onChange={e => setName(e.target.value)} type="text" style={{ marginRight: '10px' }} placeholder="Name" />
+
+        <h1>htllo</h1>
         <Input value={age} onChange={e => setAge(Number(e.target.value))} type="number" placeholder="Age" />
         <div style={{ marginTop: "10px" }}>
           <Button onClick={(e) => addUser(e)}>Create</Button>
